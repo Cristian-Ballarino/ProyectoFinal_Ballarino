@@ -3,7 +3,7 @@ import './App.css'
 import ItemListContainer from './components/ItemListContainer'
 import Navbar from './components/Navbar'
 
-//2.25 MINUTOS CLASE 3
+//1.08 MINUTOS CLASE 4
 function App() {
   
   return (

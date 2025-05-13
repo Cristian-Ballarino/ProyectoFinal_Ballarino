@@ -1,8 +1,7 @@
 import React, { useState} from 'react'
 
 const CartWidget = () => {
-  console.log('se renderizo cart')
-
+  
   return (
     <div>
         <h3>
