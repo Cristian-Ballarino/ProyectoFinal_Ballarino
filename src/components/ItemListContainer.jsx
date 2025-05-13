@@ -10,18 +10,23 @@ useEffect(() => {
     console.log(res)
     setList(res)
   })
-},[])
-const mapList = list.map((item) => {
- // console.log(item)
-  return (
-    <div>
-      <h3>{item.name}</h3>
-    </div>
-  )
-})
+}, [])
+//const mapList = list.map((item) => { 
+//  console.log(item)
+// return (
+//  <div>
+//    <h3>{item.name}</h3>
+//  </div>
+  //)
+//})
   return (
     <div>
         <h1>{greeting}</h1>
+        {list.map(item => (
+          <div>
+            <h3>{item.name}</h3>
+            </div>
+            ))}
     </div>
   )
 }
