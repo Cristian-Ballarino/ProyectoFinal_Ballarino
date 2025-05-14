@@ -1,9 +1,9 @@
 
 import './App.css'
-import ItemListContainer from './components/ItemListContainer'
-import Navbar from './components/Navbar'
+import ItemListContainer from './components/ItemListContainer/ItemListContainer'
+import Navbar from './components/Header/Navbar'
 
-//1.08 MINUTOS CLASE 4
+//0.00 MINUTOS CLASE 5
 function App() {
   
   return (
