@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import {fetchData} from '../service/fetchData'
+import { fetchData } from '../service/fetchData'
 import ItemList from '../components/ItemListContainer/ItemList'
 
 const ItemListContainer = ({greeting}) => {

@@ -7,10 +7,10 @@ export  function fetchData() {
         }, 2000)
     })
 }
-export  function fetchDatabyId(id) {
+export  function fetchDataById(id) {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            resolve(products.find((prod) =>prod.id === parseInt(id)))
+            resolve(products.find(prod =>prod.id === parseInt(id)))
         }, 2000)
     })
 }
