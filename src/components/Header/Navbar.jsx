@@ -1,21 +1,21 @@
-import React, { useState } from 'react'
 import CartWidget from './CartWidget'
+import { Link, useNavigate } from 'react-router'
 
 const Navbar = () => {
-  
-    return (
-      <header>
-      <img src="/vite.svg" alt="logo" />
-        <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-        </nav>
+  const Navigate = useNavigate()
 
-        <CartWidget/>
+     return (
+      <header>
+       <img src="/vite.svg" alt="logo" />
+        <nav>
+         <Link to='/'>Home</Link>
+         <Link to='/products'>Products</Link>
+         <Link to='/contact'>Contact</Link>
+        </nav>
        
+        <CartWidget/>
       </header>
-  )
+    )
 }
 
 export default Navbar
